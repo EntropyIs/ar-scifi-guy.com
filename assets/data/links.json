@@ -9,6 +9,39 @@
                 "@AR-SciFi-Guy"
             ],
             "icon": "fa-brands fa-facebook"
+        },
+
+        {
+            "platform": "instagram",
+            "description": "Instagram",
+            "href": "https://www.instagram.com/ar_scifi_guy/",
+            "tag_main": "@AR-SciFi-Guy",
+            "tags":[
+                "@AR-SciFi-Guy"
+            ],
+            "icon": "fa-brands fa-instagram"
+        },
+
+        {
+            "platform": "deviantart",
+            "description": "Deviant Art",
+            "href": "https://www.deviantart.com/ar-sci-fi-guy",
+            "tag_main": "@AR-SciFi-Guy",
+            "tags":[
+                "@AR-SciFi-Guy"
+            ],
+            "icon": "fa-brands fa-deviantart"
+        },
+
+        {
+            "platform": "x-twitter",
+            "description": "x.com",
+            "href": "https://x.com/AR_SciFi_Guy",
+            "tag_main": "@AR_SciFi_Guy",
+            "tags":[
+                "@AR_SciFi_Guy"
+            ],
+            "icon": "fa-brands fa-x-twitter"
         }
     ]
 }

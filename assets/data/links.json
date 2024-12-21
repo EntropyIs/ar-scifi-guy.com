@@ -43,5 +43,32 @@
             ],
             "icon": "fa-brands fa-x-twitter"
         }
+    ],
+
+    "store_links": [
+        {
+            "platform": "amazon",
+            "description": "Amazon",
+            "href": {
+                "*": "https://www.amazon.com/",
+                "US": "https://www.amazon.com/",
+                "UK": "https://www.amazon.co.uk/",
+                "DE": "https://www.amazon.de/",
+                "FR": "https://www.amazon.fr/",
+                "ES": "https://www.amazon.es/",
+                "IT": "https://www.amazon.it/",
+                "NL": "https://www.amazon.nl/",
+                "JP": "https://www.amazon.co.jp/",
+                "BR": "https://www.amazon.br/",
+                "CA": "https://www.amazon.ca/",
+                "MX": "https://www.amazon.com.mx/",
+                "AU": "https://www.amazon.com.au/",
+                "IN": "https://www.amazon.in/"
+            },
+            "icon": "fa-brands fa-amazon"
+        }
     ]
 }
+
+
+// dp/B0DKMND5PY

@@ -73,7 +73,7 @@ $.getJSON(`assets/data/site_map.json`, function(map_data){
     $("<nav>", {
         html : navLinks.join( " | " ),
         class : "menu"
-    }).appendTo("header");
+    }).appendTo(".navigation");
 });
 
 
@@ -84,7 +84,7 @@ $.getJSON(`assets/data/site_map.json`, function(map_data){
 $("<div>", {
     class : "inner",
     id : "footer-inner"
-}).appendTo("footer");
+}).appendTo(".footer");
 
 $("<ul>", {
     class : "icons",

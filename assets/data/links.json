@@ -50,25 +50,22 @@
             "platform": "amazon",
             "description": "Amazon",
             "href": {
-                "*": "https://www.amazon.com/",
-                "US": "https://www.amazon.com/",
-                "UK": "https://www.amazon.co.uk/",
-                "DE": "https://www.amazon.de/",
-                "FR": "https://www.amazon.fr/",
-                "ES": "https://www.amazon.es/",
-                "IT": "https://www.amazon.it/",
-                "NL": "https://www.amazon.nl/",
-                "JP": "https://www.amazon.co.jp/",
-                "BR": "https://www.amazon.br/",
-                "CA": "https://www.amazon.ca/",
-                "MX": "https://www.amazon.com.mx/",
-                "AU": "https://www.amazon.com.au/",
-                "IN": "https://www.amazon.in/"
+                "*": "https://www.amazon.com/dp/",
+                "US": "https://www.amazon.com/dp/",
+                "UK": "https://www.amazon.co.uk/dp/",
+                "DE": "https://www.amazon.de/dp/",
+                "FR": "https://www.amazon.fr/dp/",
+                "ES": "https://www.amazon.es/dp/",
+                "IT": "https://www.amazon.it/dp/",
+                "NL": "https://www.amazon.nl/dp/",
+                "JP": "https://www.amazon.co.jp/dp/",
+                "BR": "https://www.amazon.br/dp/",
+                "CA": "https://www.amazon.ca/dp/",
+                "MX": "https://www.amazon.com.mx/dp/",
+                "AU": "https://www.amazon.com.au/dp/",
+                "IN": "https://www.amazon.in/dp/"
             },
             "icon": "fa-brands fa-amazon"
         }
     ]
 }
-
-
-// dp/B0DKMND5PY

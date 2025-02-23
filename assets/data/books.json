@@ -1,0 +1,98 @@
+{
+    "released":[
+        {
+            "title": "Aldo",
+            "author": "Adrian Romagnano",
+            "relse-date": "November 11, 2024",
+            "description": [
+                "In a world healing from the wounds of nuclear war, a disgruntled old man finds himself thrust into a battle between the last communities of humanity.",
+                "Aldo finds himself in the wrong place at the wrong time when he is tasked with going on a mission that would help stall the advance of the 'Quibil' and their heinous leader, 'John'",
+                "Making strange and deranged friends along the way, there is much, much more at stake than the remaining existence of the winning faction. Humanity, and the last remaining asset that can secure its continuity is at risk but will Aldo's utter incompetence and misanthropy bring about the death of everything? (...Else!?)"
+            ],
+            "image_file_name":"aldo-hard-cover.png",
+            "formats":[
+                {
+                    "format": "paper-back",
+                    "asin": "B0DL69SWHR",
+                    "isbn-13": "979-8343916478"
+                },
+                {
+                    "format": "kindle",
+                    "asin": "B0DKMND5PY",
+                    "isbn-13": "978-1763764910"
+                }
+            ],
+            "avalibility":[
+                {
+                    "platform": "amazon",
+                    "formats":[
+                        "paper-back",
+                        "kindle"
+                    ]
+                }
+            ]
+            
+        }
+    ],
+
+    "upcoming":[
+        {
+            "title": "Enzo & Ernesto",
+            "author": "Adrian Romagnano",
+            "relse-date": "",
+            "description": [
+                "In this sequel to 'Aldo,' the royal heirs of the now royal bloodline have been dethroned as the Quibil scourge finds a new, civilised way to topple to Communicati from within.",
+                "As they try to eradicate the last of the lineage of Aldo, the truth of the Quibils origins are revealed and the illustrious 'Employer' is brought out of the shadows.",
+                "Enzo and Ernesto, unbeknownst to each other; need to somehow illuminate the masses to the corruption in the Communicati, but in a hyper violent world where much of the population has been brainwashed into believing the royal salvation from 'John' a hundred years ago was actually a war crime, could humanity actually be better guided to its higher evolution by a Quibil ruler?"
+            ],
+            "image_file_name":"enzo-and-ernesto.png",
+            "formats":[
+            ],
+            "avalibility":[
+            ]
+        },
+        {
+            "title": "5 O' Clock At Barney's",
+            "author": "Adrian Romagnano",
+            "relse-date": "",
+            "description": [
+                "It's always 5 O' clock somewhere in the universe and usually, that place is Barney's!",
+                "Barney, an abductee dumped by his abductors on a God forsaken asteroid for God knows how long, has established a quaint little bar where star travellers and deadbeats alike stop by to wet their whistles, or thistles, or whiskers, or fiskars or whatever the hell bits they have to get sauced off their faces!",
+                "Thing is, the Flaggin and the Syn are at each other's throats and the whole galaxy is involved in the drama, except for Barney!",
+                "When the violence finally pays him a visit, the gangsters of the galaxy have to decide where their loyalties lie.  To their species, to their greed, or their bar keep?"
+            ],
+            "image_file_name":"five-o-clock-at-barneys.png",
+            "formats":[
+            ],
+            "avalibility":[
+            ]
+        }
+    ],
+
+    "template":[
+        {
+            "title": "",
+            "author": "",
+            "relse-date": "",
+            "description": [
+                ""
+            ],
+            "image_file_name":"",
+            "formats":[
+                {
+                    "format": "",
+                    "asin": "",
+                    "isbn-13": ""
+                }
+            ],
+            "avalibility":[
+                {
+                    "platform": "",
+                    "formats":[
+                        ""
+                    ]
+                }
+            ]
+        }
+    ]
+}

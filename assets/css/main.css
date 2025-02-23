@@ -95,10 +95,6 @@ body {
 }
 
     @media screen and (max-width: 480px) {
-        .page-content {
-            padding-top: 100px
-        }
-
         .grid-container {
             grid-template-columns: 1fr;
         }
@@ -213,6 +209,7 @@ a {
 
     /* Icon Links */
     .footer .icons {
+        font-size: 0.7em;
         display: block;
         cursor: default;
         list-style: none;
@@ -240,6 +237,10 @@ a {
             }
 
         @media screen and (max-width: 980px) {
+            .footer .icons {
+                font-size: 0.5em;
+            }
+
             .footer .icons li {
                 display: block;
                 border-left: 0;

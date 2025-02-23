@@ -6,14 +6,8 @@
     --link-color-hover: #9BF1FFFF;
     --link-color-active: #53E3FBFF;
 
-
     --background-color-header: #000000FF;
     --background-color-main: #000000FF;
-
-    /*
-    --background-color-header: #00051CFF;
-    --background-color-main: #2A2F4AFF;
-    */
 }
 
 
@@ -28,17 +22,23 @@
 body {
     display: grid;
 
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: min-content;
     grid-template-areas:
-        "header page-content"
-        "footer page-content";
+        "header avalible-books upcoming-books"
+        "footer avalible-books upcoming-books";
 
     gap: 1em;
+    background: var(--background-color-header);
+    background-image: url("../../images/aldo-cover-blank.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100vh;
 
     min-height: 100vh;
 
-    background: var(--background-color-header);
+    /*background: var(--background-color-header);*/
 
     color: var(--font-color-main);
 
@@ -56,48 +56,53 @@ body {
             grid-template-rows: auto;
             grid-template-areas:
                 "header"
-                "page-content"
+                "avalible-books"
+                "upcoming-books"
                 "footer";
-            
-            background: var(--background-color-main);
         }
     }
 
 
 /* Content Layout */
-.page-content {
-    grid-area: page-content;
-    grid-row: 1 / span 2;
+    /* Books */
+    .avalible {
+        grid-area: avalible-books;
+        padding: 1em;
+    }
 
-    background: var(--background-color-main);
+    .upcoming {
+        grid-area: upcoming-books;
+        padding: 1em;
+    }
 
-    background-image: url("../../images/aldo-cover-blank.jpg");
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    .avalible article, 
+    .upcoming article {
+        padding: 1em;
+        margin-bottom: 2em;
+        background:#00000080;
+        overflow: auto;
+    }
 
-    min-height: 100vh;
-}
+    .avalible article h3, 
+    .upcoming article h3 {
+        margin-bottom: 1em;
+    } 
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-}
+    .avalible article img, 
+    .upcoming article img {
+        float: left;
+        max-width: 40%;
+        margin-right: 1em;
+    }
 
-.grid-container div {
-    background:#eee;
-    padding: 1em;
-}
+    .avalible article aside, 
+    .upcoming article aside {
+        margin-bottom: 1em;
+    }
 
-.grid-container div:nth-child(odd) {
-    background: #ddd;
-}
-
-    @media screen and (max-width: 480px) {
-        .grid-container {
-            grid-template-columns: 1fr;
-        }
+    .avalible article p, 
+    .upcoming article p {
+        margin-bottom: 0.5em;
     }
 
 
@@ -129,8 +134,6 @@ a {
     padding: 1em;
 
     align-self: start;
-
-    background: var(--background-color-header);
 }
 
     @media screen and (max-width: 980px) {
@@ -150,7 +153,6 @@ a {
     /* Banner */
     .header .banner {
         color: var(--font-color-banner);
-        background: var(--background-color-header);
     }
 
         .header .banner h1 {
@@ -196,8 +198,6 @@ a {
     align-self: end;
 
     padding: 1em;
-
-    background: var(--background-color-header);
 }
 
     @media screen and (max-width: 480px) {
@@ -263,7 +263,7 @@ a {
 
         .footer .copyright li {
             border-left: solid 1px #D4D4FF1A;
-            color: #FEFEFF33;
+            color: #404040;
             display: inline-block;
 
             line-height: 1;
